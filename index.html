@@ -458,7 +458,7 @@
             { id: "sparkplug", title: "Busi (Spark Plug)", cat: "Mekanisme Pengapian Mesin", func: "Meloncatkan percikan api listrik tegangan tinggi dari sistem pengapian.", work: "Meloncatkan bunga api mekanis tepat di akhir langkah kompresi untuk memicu pembakaran di dalam silinder.", bounds: {x:710, y:220, w:20, h:30} },
             { id: "valves", title: "Katup Masuk & Katup Buang (Valves)", cat: "Mekanisme Mesin", func: "Membuka & menutup saluran intake (hisap) dan exhaust (buang) secara presisi.", work: "Katup masuk terbuka pada Langkah Hisap; Katup buang terbuka pada Langkah Buang.", bounds: {x:680, y:230, w:80, h:35} },
             { id: "piston", title: "Piston, Stang Seher & Poros Engkol", cat: "Mekanisme Mesin Utama", func: "Mengubah energi ledakan pembakaran menjadi gerakan mekanis linier lalu rotasi putar.", work: "Piston turun-naik mendorong Batang Piston (Connecting Rod) untuk memutar Poros Engkol (Crankshaft).", bounds: {x:650, y:270, w:140, h:240} },
-            { id: "ecu", title: "EFI Computer (ECU / ECM)", cat: "Unit Otak Kontrol Pusat (Posisi Tengah)", func: "Menerima sinyal dari INPUT SENSOR dan mengontrol OUTPUT KE INJEKTOR.", work: "Menerima masukan sinyal biru cyan dari TPS, CKP, ECT, dan O2 Sensor. Setelah dikalkulasi, ECU mengeluarkan sinyal biru cyan khusus ke Injektor.", bounds: {x:460, y:430, w:130, h:140} }
+            { id: "ecu", title: "EFI Computer (ECU / ECM)", cat: "Unit Otak Kontrol Pusat (Posisi Tengah)", func: "Menerima sinyal dari INPUT SENSOR dan mengontrol OUTPUT KE INJEKTOR.", work: "Menerima masukan sinyal dari TPS, CKP, ECT, dan O2 Sensor. Setelah dikalkulasi, ECU mengeluarkan sinyal ke Injektor.", bounds: {x:460, y:430, w:130, h:140} }
         ];
 
         function onTPSChange(tpsVal) {
